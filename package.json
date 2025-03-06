@@ -1,0 +1,15 @@
+{
+  "name": "@sy/monorepo",
+  "version": "1.0.0",
+  "description": "Monorepo template",
+  "repository": "https://longnguyentpvt@github.com/longnguyentpvt/yarn-monorepo-template.git",
+  "author": "longnguyentpvt@gmail.com",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/shared-types",
+    "packages/*",
+    "apps/services/*",
+    "apps/frontends/*"
+  ]
+}

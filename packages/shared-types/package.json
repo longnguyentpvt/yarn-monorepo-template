@@ -1,0 +1,17 @@
+{
+  "name": "@sy/shared-types",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "longnguyentpvt@gmail.com",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "lint": "echo 'No script'",
+    "test": "echo 'No script'"
+  },
+  "devDependencies": {
+    "typescript": "~5.7.2"
+  }
+}

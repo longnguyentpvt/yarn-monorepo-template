@@ -1,0 +1,13 @@
+node_modules/
+.next
+dist/
+deployments/docker-compose.yaml
+deployments/k8s/docker-secret-create.sh
+deployments/k8s/thingdash-config.yaml
+deployments/k8s/thingdash-config-staging.yaml
+.yarn
+deployments/k8s/gke/
+deployments/k8s/shineyup/
+deployments/k8s/*-env
+deployments/k8s/certs/thingdash/
+._*
