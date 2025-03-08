@@ -1,0 +1,25 @@
+.spinner {
+  --bg-color: none;
+
+  background-color: var(--bg-color);
+  border-radius: 6px;
+}
+
+.spinner--primary {
+  --bg-color: crimson;
+}
+
+.spinner--small {
+  font-size: 1rem;
+  padding: 0.4rem 0.6rem;
+}
+
+.spinner--medium {
+  font-size: 1.2rem;
+  padding: 0.6rem 0.8rem;
+}
+
+.spinner--large {
+  font-size: 1.4rem;
+  padding: 0.8rem 1rem;
+}
